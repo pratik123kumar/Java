@@ -1,0 +1,70 @@
+There are mainly 3 types of loop in java : -
+
+1. For loop :
+
+syntax ---->  
+
+  for(initialisation ; condition ; updation){
+
+
+    // your code here
+
+
+  }
+
+
+ public class loops{
+    public static void main(String[] args) {
+        
+        for(int i = 0 ; i < 11 ; i++){
+            System.out.println(i);
+        }
+         
+    }
+}
+ 
+
+
+     
+
+
+
+
+2. Whille - loop :
+
+syntax : --->
+
+     public class loops{
+    public static void main(String[] args) {
+        
+        int i = 0 ;
+        while(i < 11){
+            int counter = i++ ;
+            System.out.println(counter);
+        }
+         
+         
+    }
+}
+
+
+3. do-while lop :
+
+syntax : ------>
+         
+
+    import java.util.*;
+
+public class loops {
+
+    public static void main(String[] args) {
+
+        int i = 0 ;
+
+        do{
+             int counter = i++ ;
+            System.out.println(counter);
+        }while(i<11);
+        
+    }
+}
